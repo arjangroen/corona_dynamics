@@ -7,4 +7,3 @@ def get_logistic_growth_rate(r, N, K):
     :return: growth rate
     """
     return r * N * (1-(N/K))
-
