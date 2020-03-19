@@ -27,9 +27,6 @@ params = {
 }
 
 p = Population(params)
-alarm_phase = False
-t_alarm_end = -1
-ending = False
 for x in range(params['dur']):
     p.step()
 ```
