@@ -11,8 +11,8 @@ import numpy as np
 import pandas as pd
 
 params = {
-    "R_free": 3,  # the basic reproduction rate
-    "R_control": 1.5,  # the basic reproduction rate after government measures in the period 12 march - 8 april 2020
+    "R_free": 3,  # the basic reproduction number
+    "R_control": 1.5,  # the basic reproduction number after government measures in the period 12 march - 8 april 2020
     "incubation_time_mu" : 5,  # days, poisson distributed
     "contagious_time_mu" : 6,  # days, poisson distributed
     "death_rt": 0.01,  # mortality rate (1%)
